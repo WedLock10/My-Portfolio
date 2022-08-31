@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name =
+      "viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv =
+      "X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" 
+      type="text/css" href="style.css"/>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a href="">
+            <img src="logo.png">
+          </a>
+        </div>
+        <nav class="nav-links">
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="header__hamburger" onclick="toggleMenu()">
+            <div>
+               <div class="bar hamburger__bar1"></div>
+               <div class="bar hamburger__bar2"></div>
+               <div class="bar hamburger__bar3"></div>
+            </div>
+          </div>
+        </nav> <!--navigations-->
+      <div class="header-content">
+        <h1><span>Hello, I'm</span> Marjun</h1>
+        <h1></h1>
+        <p>Aspiring IT Professional</p>
+        <div class="button">
+          <a href="Marjunel Rizo - Resume.pdf" download>
+            Download CV
+          </a>
+        </div> <!--button-->
+      </div>
+    </header>
+    <!--about-->
+    <section class="about" id="about">
+      <div class="title">
+        <h2>About</h2>
+      </div>
+      <div class="about-content">
+        <h2>Hello everyone. Nice to meet you.</h2>
+        <p>
+          My journey has been described as challenging. It was difficult for me to understand how a computer worked the first time I used it, but out of curiosity, I studied how it worked. I wish to work in <strong>networks, web development,</strong> and <strong>cyber security.</strong> My enthusiasm for computers hasn't changed, and I'm still curious about how widespread it is.
+         </p>
+      </div><!--about content-->
+    </section>
+    <!--skill section-->
+    <section class="skills" id="skills">
+      <div class="title">
+        <h2>Skills</h2>
+      </div>
+      <div class="skill-content">
+        <div class="skill-text">
+           <h3>Soft Skills</h3>
+           <div class="skill-set">
+             <li>Curious</li>
+             <li>Observant</li>
+             <li>Creative</li>
+           </div>
+        </div> <!--skill text-->
+        <div class="skill-text">
+           <h3>Tech Skills</h3>
+           <div class="skill-set">
+             <li>Web Design (HTML, CSS)</li>
+             <li>Programming (Basic JavaScript)</li>
+             <li>Computer Literate</li>
+             <li>MS Office (Word, Excel, PowerPoint)</li>
+             <li>Computer Networking</li>
+             <li>Installing Windows OS & Configuration</li>
+           </div>
+        </div><!--skill text-->
+      </div>
+    </section>
+    <!--portfolio-->
+    <section class="portfolio" id="portfolio">
+      <div class="title">
+        <h2>Portfolio</h2>
+      </div>
+      <div class="about-content">
+        <h2>Here are my projects so far.</h2>
+      </div>
+      <div class="gallery">
+        <div class="item img-1">
+          <img src="desktop-mikimoto.jpg">
+          <!--hover to image-->
+          <div class="redirect">
+            <h3>MIKIMOTO</h3>
+            <p>A website that sell accessories and service.</p>
+            <a href="https://wedlock10.github.io/MIKIMOTO/">Visit Website</a>
+          </div>
+          <!--hvoer to image-->
+        </div>
+        <!--item-->
+        <div class="item img-1">
+          <img src="desktop-busycore.jpg">
+          <!--hover to image-->
+          <div class="redirect">
+            <h3>BUSYCORE</h3>
+            <p>A company website that provides service for busy people.</p>
+            <a href="https://wedlock10.github.io/BUSYCORE/">Visit Website</a>
+          </div>
+          <!--hvoer to image-->
+        </div>
+        <!--item-->
+        <div class="item img-1">
+          <img src="desktop-netflix.jpg">
+          <!--hover to image-->
+          <div class="redirect">
+            <h3>NETFLIX CLONE</h3>
+            <p>A duplicate website of the popular Netflix.</p>
+            <a href="https://wedlock10.github.io/NETFLIX-CLONE-/">Visit Website</a>
+          </div>
+          <!--hvoer to image-->
+        </div>
+        <!--item-->
+        <div class="item img-1">
+          <img src="mobile-blog.jpg">
+          <!--hover to image-->
+          <div class="redirect">
+            <h3>TRAVEL US</h3>
+            <p>A blog website for someone who loves to travel.</p>
+            <a href="https://wedlock10.github.io/Blog-Website-/">Visit Website</a>
+          </div>
+          <!--hvoer to image-->
+        </div>
+        <!--item-->
+        <div class="item img-1">
+          <img src="mobile-berger.jpg">
+          <!--hover to image-->
+          <div class="redirect">
+            <h3>BERGER</h3>
+            <p>A website for food company that sells burger.</p>
+            <a href="https://wedlock10.github.io/BERGER-KAYO-DYAN/">Visit Website</a>
+          </div>
+          <!--hvoer to image-->
+        </div>
+        <!--item-->
+        <div class="item img-1">
+          <img src="mobile-mikimoto.jpg">
+          <!--hover to image-->
+          <div class="redirect">
+            <h3>MIKIMOTO</h3>
+            <p>A website that sell accessories and service.</p>
+            <a href="https://wedlock10.github.io/MIKIMOTO/">Visit Website</a>
+          </div>
+          <!--hvoer to image-->
+        </div>
+        <!--item-->
+      </div>
+      <!-- repository -->
+      <div class="repo">
+        <p>For more projects visit my</p>
+        <a href="https://github.com/WedLock10?tab=repositories" class="icon">
+          Github
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </section>
+    <!--contact-->
+    <section class="contact" id="contact">
+      <div class="title">
+        <h2>Contact</h2>
+      </div>
+      <div class="about-content">
+        <h2>Let's talk while we're here.</h2>
+      </div>
+      <form action="https://formspree.io/f/mayknaee" method="POST">
+        <input type="text" 
+        name="Name" placeholder="Name" required>
+        <input type="email" 
+        name="Email" placeholder="Email" required>
+        <input type="text" 
+        name="Subject" placeholder="Subject" required>
+        <textarea name="Message" placeholder="Message" required></textarea>
+        <button name="Submit" id="submit">Submit</button>
+      </form>
+    </section><!--contact -->
+    <!------footer------->
+    <footer>
+      <div class="container">
+        <div class="logo-links">
+          <a href="">
+            <img src="logo.png">
+          </a>
+        </div>
+        <div class="navigation">
+          <ul class="bottom-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>       
+      </div><!--container-->
+      <div class="social-links">
+        <a href="https://github.com/WedLock10?tab=repositories">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://m.me/marjunel.rizo.7">
+          <i class="fa-brands fa-facebook-messenger"></i>
+        </a>
+        <a href="https://www.facebook.com/marjunel.rizo.7">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </div>
+      <div class="copyright">
+        <p>copyright &copy; 2022 Marjun/WedLock10 </p>
+      </div>
+    </foooter>
+  </div><!--container close-->
+<script src = "script.js">
+
+/*
+function toggleMenu() {
+   y = document.querySelector(".header__hamburger");
+   y.classList.toggle("click");
+ };
+  
+
+  
+function toggleMenu() {
+  let x = document.querySelector(".links");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+};
+*/
+</script>
+</body>
+</html>

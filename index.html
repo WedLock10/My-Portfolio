@@ -8,6 +8,7 @@
       "X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" 
       type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <title>Portfolio</title>
@@ -18,7 +19,7 @@
       <div class="navbar">
         <div class="logo">
           <a href="">
-            <img src="logo.png">
+            <img src="logo.png" data-aos="zoom-in">
           </a>
         </div>
         <nav class="nav-links">
@@ -49,7 +50,7 @@
       </div>
     </header>
     <!--about-->
-    <section class="about" id="about">
+    <section class="about" id="about" data-aos="fade-up">
       <div class="title">
         <h2>About</h2>
       </div>
@@ -61,7 +62,7 @@
       </div><!--about content-->
     </section>
     <!--skill section-->
-    <section class="skills" id="skills">
+    <section class="skills" id="skills" data-aos="fade-up">
       <div class="title">
         <h2>Skills</h2>
       </div>
@@ -88,7 +89,7 @@
       </div>
     </section>
     <!--portfolio-->
-    <section class="portfolio" id="portfolio">
+    <section class="portfolio" id="portfolio" data-aos="fade-up">
       <div class="title">
         <h2>Portfolio</h2>
       </div>
@@ -97,7 +98,7 @@
       </div>
       <div class="gallery">
         <div class="item img-1">
-          <img src="desktop-mikimoto.jpg">
+            <img src="desktop-mikimoto.jpg" data-aos="zoom-in">
           <!--hover to image-->
           <div class="redirect">
             <h3>MIKIMOTO</h3>
@@ -108,8 +109,7 @@
         </div>
         <!--item-->
         <div class="item img-1">
-          <img src="desktop-busycore.jpg">
-          <!--hover to image-->
+          <img src="desktop-busycore.jpg" data-aos="zoom-in">          <!--hover to image-->
           <div class="redirect">
             <h3>BUSYCORE</h3>
             <p>A company website that provides service for busy people.</p>
@@ -119,7 +119,7 @@
         </div>
         <!--item-->
         <div class="item img-1">
-          <img src="desktop-netflix.jpg">
+          <img src="desktop-netflix.jpg" data-aos="zoom-in">
           <!--hover to image-->
           <div class="redirect">
             <h3>NETFLIX CLONE</h3>
@@ -130,7 +130,7 @@
         </div>
         <!--item-->
         <div class="item img-1">
-          <img src="mobile-blog.jpg">
+          <img src="mobile-blog.jpg" data-aos="zoom-in">
           <!--hover to image-->
           <div class="redirect">
             <h3>TRAVEL US</h3>
@@ -141,7 +141,7 @@
         </div>
         <!--item-->
         <div class="item img-1">
-          <img src="mobile-berger.jpg">
+          <img src="mobile-berger.jpg" data-aos="zoom-in">
           <!--hover to image-->
           <div class="redirect">
             <h3>BERGER</h3>
@@ -152,7 +152,7 @@
         </div>
         <!--item-->
         <div class="item img-1">
-          <img src="mobile-mikimoto.jpg">
+          <img src="mobile-mikimoto.jpg" data-aos="zoom-in">
           <!--hover to image-->
           <div class="redirect">
             <h3>MIKIMOTO</h3>
@@ -164,7 +164,7 @@
         <!--item-->
       </div>
       <!-- repository -->
-      <div class="repo">
+      <div class="repo" data-aos="flip-up">
         <p>For more projects visit my</p>
         <a href="https://github.com/WedLock10?tab=repositories" class="icon">
           Github
@@ -173,7 +173,7 @@
       </div>
     </section>
     <!--contact-->
-    <section class="contact" id="contact">
+    <section class="contact" id="contact" data-aos="fade-up">
       <div class="title">
         <h2>Contact</h2>
       </div>
@@ -196,7 +196,7 @@
       <div class="container">
         <div class="logo-links">
           <a href="">
-            <img src="logo.png">
+            <img src="logo.png" data-aos="zoom-in">
           </a>
         </div>
         <div class="navigation">
@@ -225,25 +225,15 @@
       </div>
     </foooter>
   </div><!--container close-->
-<script src = "script.js">
-
-/*
-function toggleMenu() {
-   y = document.querySelector(".header__hamburger");
-   y.classList.toggle("click");
- };
-  
-
-  
-function toggleMenu() {
-  let x = document.querySelector(".links");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-};
-*/
+<script src = "script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js">
+</script>
+ <script>
+// animate on scroll
+AOS.init({
+      duration: 1000,
+      once: false,
+    });
 </script>
 </body>
 </html>
